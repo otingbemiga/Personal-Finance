@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <h2>Personal Finance</h2>
+
+    <div class="container">
+        <h4>Your Balance</h4>
+        <h1 id="balance">&#8358; 0.00</h1>
+
+
+        <div class="inc-exp-container">
+            <div>
+                <h4>Income</h4>
+                <div id="money-plus" class="money plus"> &#8358; 0.00</div>
+            </div>
+            <div>
+                <h4>Expense</h4>
+                <div id="money-minus" class="money minus"> &#8358; 0.00</div>
+            </div>
+        </div>
+
+        <h3>Add new transaction</h3>
+        <form id="form">
+            <div class="form-control">
+                <label for="text">Description</label>
+                <input type="text" id="text" placeholder="  Enter text">
+            </div>
+            <div class="form-control">
+                <label for="text">Amount <br>(Eg. -100 for expense, 100 for income) </label>
+                <input type="text" id="amount" placeholder="Enter amount...">
+            </div>
+            <button class="btn">Add Transaction</button>
+        </form>
+        <h3>History</h3>
+        <ul id="list" class="list">
+            <!-- <li class="minus">Cash <span>-400</span> <button class="delete-btn">x</button> </li>
+            <li class="plus">Cash <span>-400</span> <button class="delete-btn">x</button> </li> -->
+
+        </ul>
+
+    </div>
+
+    <table>
+
+    </table>
+
+    <script src="./script.js"></script>
+
+
+
+</body>
+
+</html>
